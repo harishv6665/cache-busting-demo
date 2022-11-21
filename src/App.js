@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Versioning from "./Components/Versioning/Versioning";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React1
         </a>
+        <Versioning />
       </header>
     </div>
   );
